@@ -6,4 +6,7 @@
   }
 .app{
     display: flex;
+}.content2{
+  flex: 1;
+  padding: 30px;
 }

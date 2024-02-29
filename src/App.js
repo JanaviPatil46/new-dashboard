@@ -7,6 +7,8 @@ import About from '../src/Pages/About'
 import Contact from '../src/Pages/Contact'
 import Product from '../src/Pages/Product'
 import Insights from './Pages/Insights';
+import NewNavbar from './navabr/NewNavbar';
+import Services from './Pages/Services';
 function App() {
   return (
     <>
@@ -19,10 +21,15 @@ function App() {
             <Routes>
               <Route path='/' element={<Insights/>}/>
               <Route path='/about' element={<About/>}/>
-              <Route path='/contact' element={<Contact/>}/>
-              <Route path='/product' element={<Product/>}/>
+              
             </Routes>
           </div>
+          <div className='content2'>
+            <Routes>
+            <Route path='/contact' element={<Contact/>}/>
+            </Routes>
+        
+         </div>
         </div>
       </div>
     </Router>

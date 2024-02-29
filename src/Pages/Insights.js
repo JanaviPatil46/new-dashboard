@@ -167,7 +167,7 @@ const Insights = () => {
             
           </div>
           {/* </div> */}
-          <div className='chart col-3' style={{ border: '2px solid blue' }}>
+          <div className='chart col-3' >
           <div className='card1 col-3' style={{ background: '#fff', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)', borderRadius: '8px' }}>
             <div className='card-info col-12' style={{ display: 'flex' }}>
               <Card task="Overdue" number="0" />
